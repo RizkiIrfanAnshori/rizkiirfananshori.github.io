@@ -1,51 +1,45 @@
-<style type="text/css">
-	body {
-		margin:0px;
-		background-color: rgba(0,162,232,0.2);
-	} 
-
-	a {
-		color: white;
-		font-size: 14px;
-	}
-	ul {
-		 list-style-type: none;
- 	 	margin: 0;
-  		padding: 0;
-	}
-	.tab_atas {
-		background-color: rgba(0,162,232,1);
-		float:fixed;
-		padding:8px;
-		color:white;
-	}
-	.box_content{
-		margin: 16px;
-		background-color: rgba(0,162,232,1);
-		padding:16px;
-	}
-	.box_content h1{
-		color: white;
-		font-size: 20px;
-		padding:0;margin:0;
-		border-bottom: 4px solid white;
-	}
-	.box_content p{
-		color: white;
-		font-size: 14px;
-		text-indent: 24px;
-	}
-</style>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Play Circles Colors</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/style-mobile.css">
+</head>
 <body>
-	<div class="tab_atas">
-		<a style='font-size: 32px;font-weight: bold;'>Play Circles Colors Studio</a>
+	<div class="nav">
+		<a class="nav-logo" href="#welcome">Play Circles Colors</a>
+		<ul id="nav-click" class="nav-list">
+			<img class="nav-icon" src="img/menu-icon.png">
+			<li><a class="nav-button" href="#welcome">Home</a></li>
+			<li><a class="nav-button" href="#project">Project</a></li>
+			<li><a class="nav-button" href="#tentang">Tentang</a></li>
+		</ul>
 	</div>
-	<div class='box_content'>
-		<h1>Mohon Maaf</h1>
-		<a style="float:right;">- 02/05/2019</a>
-		<p>Sorry, this webpage not ready yet. You can check it later. You can play some games from cartoon network</p>
-		<iframe style="border:none;width: 100%;height:50%;" src="https://d2lv662meabn0u.cloudfront.net/boomerang/dynamic/web_game/00000004/4862/desktop_game/index.html">cartoonnetwork.com</iframe>
+	<div id="welcome" class="container-1 head-image">
+		<center class="container-1-center">
+			<h1 style="font-size: 50px;">Selamat Datang</h1>	
+			<p style="font-size: 20px;">Selamat datang di Play Circles Colors Studio Webpage, saya memiliki beberapa Project yang menciptakan kesenangan</p>
+		</center>
+	</div>
+	<div id="tetang" class="content-split-1">
+		<div class="content-1">
+			<h1>Tetang</h1>
+			<p>Saya Rizki Irfan Anshori, seorang pengembang halaman dan project lainnya.</p>
+		</div>
+		<div class="content-2">
+			<h1 class="content-2-h1">Project</h1>
+			<p>Saya juga menyediakan ruang untuk server game anda!, tapi khusus untuk pengguna Game Maker:Studio, dan mengikuti aturan/system yang ada!</p>
+		</div>
+	</div>
+	<div id="project" class="content-split-2">
+		<div class="content-1">
+			<h1>Preview</h1>
+			<p></p>
+			<div class="responsive">
+				<img src="img/cover.png">
+			</div>
+		</div>
 	</div>
 </body>
-<footer>
-</footer>
+<script type="text/javascript" src="script/script.js"></script>
+</html>
